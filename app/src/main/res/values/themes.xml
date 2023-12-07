@@ -6,4 +6,24 @@
     </style>
 
     <style name="Theme.HoroscopeApp" parent="Base.Theme.HoroscopeApp" />
+
+    <style name="Title">
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/dancing</item>
+        <item name="android:textSize">32sp</item>
+
+    </style>
+
+    <style name="Body" parent="Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
 </resources>
+
+    <!--    android:layout_gravity="center"-->
+    <!--    android:textColor="@color/secondary"-->
+    <!--    android:textStyle="bold"-->
+    <!--    android:fontFamily="@font/dancing"-->
+    <!--    android:textSize="32sp"-->
