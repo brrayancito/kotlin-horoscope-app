@@ -4,7 +4,7 @@ import com.example.horoscopeapp.domain.model.PredictionModel
 import com.google.gson.annotations.SerializedName
 
 data class SignResponse(
-    @SerializedName("date") val data: String,
+    @SerializedName("date") val date: String,
     @SerializedName("horoscope") val horoscope: String,
     @SerializedName("sign") val sign: String
 ) {
